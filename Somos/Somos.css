@@ -1,0 +1,149 @@
+body {
+    min-height: 100px;
+    font-family: "Questrial", sans-serif;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    font-family: "Questrial", sans-serif;
+  }
+  body {
+    position: relative;
+    background-color: rgb(241, 169, 87);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Bebas Neue", cursive;
+  
+    margin-bottom: 100px;
+  }
+  
+  ul {
+    list-style: none;
+  }
+  
+  .container {
+    padding: 0;
+    width: 90%;
+    margin: 0 auto;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+  }
+  .nav-main {
+    font-size: 17px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 20px 0;
+  }
+  
+  .logo {
+    height: 50px;
+    width: auto;
+    margin-left: 50px;
+  }
+  .nav-main ul {
+    display: flex;
+    margin-right: 20px;
+  }
+  .nav-main ul li {
+    padding: 20px;
+  }
+  
+  /* Banner*/
+  .banner-principal-1{
+      width: 0 auto;
+      height: 0 auto;
+      border-radius: 10px;
+      display: inline-flex;
+      border: 1px #f2f2f2;
+      align-items: center;
+      background-color: darkred;
+      padding:20px;
+      margin-left: 40px;
+  }
+  .marquesa{
+      width: 500px;
+      height: 400px;
+      margin-left: 90px;
+  }
+  .chocolate{
+      width: 500px;
+      height: 400px;
+      margin-right: 80px;
+      margin-left: 50px; ;
+  }
+  .marquesa, .chocolate{
+      display: inline-flex;
+      border-radius: 10px;
+  }
+  
+  .texto1{
+      text-align: center;
+      background-color: rgb(0, 0, 0);
+      color: cornsilk;
+      margin-bottom: 1px;
+  }
+  /*video*/
+  .video-featured {
+    border: white 100px;
+    margin-bottom: 50px;
+    margin-top: 10px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  /*penultimo*/
+  .footer-1 {
+    display: inline;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 25px;
+    margin: 20px 0;
+    color: white;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+    background-color: rgba(182, 35, 25, 0.76);
+  }
+  .footer-1 img {
+    width: 90%;
+    height: auto;
+    margin-left: 20px;
+  }
+  .footer-1 img:hover {
+    border: 1px solid #777;
+  }
+  .mapa {
+    width: 400px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: 30px;
+    border-radius: 20px;
+  }
+  .imagen-logo {
+    margin-bottom: 50px;
+    border-radius: 20px;
+  }
+  
+  .footer-1 h3 {
+    font-size: 30px;
+    margin: 60px 0;
+  }
+  .footer-1 a {
+    padding: 10px 0;
+    color: #f2f2f2;
+    text-transform: uppercase;
+     align-items: center;
+    font-weight: bold;
+  }
+  
+  .informacion-contactos {
+    font-family: "Questrial", sans-serif;
+    font-size: 10px;
+    margin: 10px;
+  }
+  footer{
+	background-color: rgba(124, 20, 20, 0.883);
+	color: rgb(0, 0, 0);
+	line-height: 30px;
+	text-align: center;
+	padding: 45px;
+}
